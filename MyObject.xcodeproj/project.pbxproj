@@ -16,6 +16,7 @@
 		C20C078A1CB7A3BF0048816A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20C07881CB7A3BF0048816A /* LaunchScreen.storyboard */; };
 		C20C07951CB7A3BF0048816A /* MyObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20C07941CB7A3BF0048816A /* MyObjectTests.m */; };
 		C20C07A01CB7A3BF0048816A /* MyObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20C079F1CB7A3BF0048816A /* MyObjectUITests.m */; };
+		C20C07AF1CB7A3E60048816A /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C20C07AE1CB7A3E60048816A /* MyObject.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C20C079B1CB7A3BF0048816A /* MyObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20C079F1CB7A3BF0048816A /* MyObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyObjectUITests.m; sourceTree = "<group>"; };
 		C20C07A11CB7A3BF0048816A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20C07AD1CB7A3E60048816A /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		C20C07AE1CB7A3E60048816A /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				C20C077B1CB7A3BF0048816A /* AppDelegate.m */,
 				C20C077D1CB7A3BF0048816A /* ViewController.h */,
 				C20C077E1CB7A3BF0048816A /* ViewController.m */,
+				C20C07AD1CB7A3E60048816A /* MyObject.h */,
+				C20C07AE1CB7A3E60048816A /* MyObject.m */,
 				C20C07801CB7A3BF0048816A /* Main.storyboard */,
 				C20C07861CB7A3BF0048816A /* Assets.xcassets */,
 				C20C07881CB7A3BF0048816A /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 				C20C077C1CB7A3BF0048816A /* AppDelegate.m in Sources */,
 				C20C07851CB7A3BF0048816A /* MyObject.xcdatamodeld in Sources */,
 				C20C07791CB7A3BF0048816A /* main.m in Sources */,
+				C20C07AF1CB7A3E60048816A /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
